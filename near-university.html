@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore fictional coffee shop recommendations near the University of Iowa campus.">
+  <title>Coffee Near the University | Bean There Iowa City</title>
+  <style>
+    :root {
+      --coffee: #4b3028; --cream: #fffaf2; --tan: #ead9c3;
+      --rust: #a65d3f; --ink: #29231f; --muted: #685d54;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--cream); color: var(--ink); line-height: 1.65; }
+    .notice { background: #f0e6d8; color: #49352b; text-align: center; padding: 12px 18px; font-size: .84rem; }
+    header { background: var(--coffee); color: white; }
+    .header-inner, main, .footer-inner { width: min(1080px, 90%); margin: auto; }
+    .header-inner { padding: 24px 0 0; }
+    .brand { color: white; text-decoration: none; font: bold clamp(1.7rem, 4vw, 2.5rem) Georgia, serif; }
+    .tagline { margin: 4px 0 20px; color: #f0dfcd; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 0 18px; }
+    nav a { color: white; text-decoration: none; padding: 9px 13px; border-radius: 6px; font-size: .93rem; }
+    nav a:hover, nav a:focus, nav a[aria-current="page"] { background: #765044; outline-offset: 3px; }
+    main { padding: 42px 0 56px; }
+    h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.2; }
+    h1 { font-size: clamp(2.2rem, 6vw, 3.5rem); margin: 10px 0 16px; }
+    h2 { font-size: clamp(1.55rem, 4vw, 2.15rem); }
+    h3 { font-size: 1.35rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 2px; font-weight: bold; font-size: .78rem; color: var(--rust); }
+    .hero { background: var(--tan); border-radius: 14px; padding: clamp(25px, 6vw, 52px); margin-bottom: 32px; }
+    .hero p, .intro { max-width: 760px; }
+    .shop-list { display: grid; gap: 22px; }
+    .shop { background: white; border: 1px solid #e7dbcd; border-radius: 12px; padding: clamp(20px, 4vw, 30px); }
+    .shop-top { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px; }
+    .shop h2 { margin: 6px 0; }
+    .rating { color: var(--rust); font-weight: bold; }
+    .tag { display: inline-block; background: #f2e8dc; color: #604333; padding: 4px 9px; border-radius: 20px; font-size: .8rem; font-weight: bold; }
+    .details { display: flex; flex-wrap: wrap; gap: 8px 22px; color: var(--muted); font-size: .93rem; }
+    .review { background: #f4eadf; border-left: 4px solid var(--rust); margin: 15px 0 0; padding: 12px 14px; font-style: italic; }
+    .tip { background: #f3e7d9; padding: 20px 23px; border-radius: 10px; margin-top: 28px; }
+    .text-link { color: #87472f; font-weight: bold; }
+    .checklist { padding-left: 22px; }
+    footer { background: #30231e; color: #f9efe3; padding: 28px 0 0; }
+    footer a { color: #f4c9a6; }
+    .footer-inner p { margin: 6px 0; }
+    footer .notice { margin-top: 20px; }
+    @media (max-width: 760px) {
+      .header-inner, main, .footer-inner { width: 92%; }
+      nav { gap: 4px; }
+      nav a { padding: 9px 10px; }
+      main { padding-top: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <div class="header-inner">
+      <a class="brand" href="index.html">Bean There Iowa City</a>
+      <p class="tagline">A friendly guide to your next favorite cup.</p>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="best-coffee-shops.html">Best Coffee Shops</a>
+        <a href="near-university.html" aria-current="page">Near the University</a>
+        <a href="study-spots.html">Study Spots</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="eyebrow">Campus coffee guide</span>
+      <h1>Coffee Shops Near the University of Iowa</h1>
+      <p>Between lectures, club meetings, and campus events, sometimes a coffee break is exactly what you need. These three fictional cafés are imagined with student schedules in mind, from quick grab-and-go orders to comfortable places for catching up with friends.</p>
+      <p>The businesses, locations, ratings, and reviews below are invented. They do not represent real shops or verified walking distances from campus.</p>
+    </section>
+
+    <section class="intro">
+      <h2>Three imagined stops for a busy campus day</h2>
+      <p>Each café has a different personality. Consider your schedule, the kind of drink you enjoy, and whether you have time to sit down.</p>
+    </section>
+
+    <section class="shop-list">
+      <article class="shop">
+        <div class="shop-top">
+          <div>
+            <span class="tag">Best for quick stops</span>
+            <h2>Lecture Latte</h2>
+          </div>
+          <div class="rating">★★★★★ 4.8/5</div>
+        </div>
+        <p>Lecture Latte is an imaginary student-friendly café designed around fast ordering and a straightforward menu. Its fictional specialty is the Campus Cold Brew, served black or with your choice of milk. A small pastry case rounds out the menu.</p>
+        <div class="details">
+          <span><strong>Ideal visit:</strong> Before class</span>
+          <span><strong>Price range:</strong> $2–$6 (fictional)</span>
+          <span><strong>Atmosphere:</strong> Quick and casual</span>
+        </div>
+        <h3>Why it makes the list</h3>
+        <p>A simple menu and an emphasis on quick service make this an imagined option for students who want a coffee without turning their break into a long stop.</p>
+        <blockquote class="review">“The menu is easy to navigate, and the cold brew would be my choice on an early morning before class.” — Fictional reviewer, Tyler B.</blockquote>
+      </article>
+
+      <article class="shop">
+        <div class="shop-top">
+          <div>
+            <span class="tag">Best for meeting friends</span>
+            <h2>Hawkeye Corner Café</h2>
+          </div>
+          <div class="rating">★★★★☆ 4.7/5</div>
+        </div>
+        <p>Hawkeye Corner Café is imagined as a lively, welcoming gathering place with shared tables and comfortable booths. The fictional menu includes caramel lattes, iced matcha, hot chocolate, and snacks that are easy to share between friends.</p>
+        <div class="details">
+          <span><strong>Ideal visit:</strong> Between classes</span>
+          <span><strong>Price range:</strong> $3–$8 (fictional)</span>
+          <span><strong>Atmosphere:</strong> Social and upbeat</span>
+        </div>
+        <h3>Why it makes the list</h3>
+        <p>Its imagined seating and varied drink options make it a natural fit for a casual conversation, a club catch-up, or a break with classmates.</p>
+        <blockquote class="review">“I would pick this spot for a quick catch-up with friends. There is something for everyone on the imagined menu.” — Fictional reviewer, Sophie M.</blockquote>
+      </article>
+
+      <article class="shop">
+        <div class="shop-top">
+          <div>
+            <span class="tag">Best for an afternoon reset</span>
+            <h2>Study Break Brew</h2>
+          </div>
+          <div class="rating">★★★★☆ 4.5/5</div>
+        </div>
+        <p>Study Break Brew is a fictional café concept for students who want to pause between lectures. The imagined menu features vanilla lattes, iced coffee, herbal tea, and small baked treats. Its relaxed design includes a mix of individual seats and small tables.</p>
+        <div class="details">
+          <span><strong>Ideal visit:</strong> Afternoon break</span>
+          <span><strong>Price range:</strong> $3–$7 (fictional)</span>
+          <span><strong>Atmosphere:</strong> Calm and comfortable</span>
+        </div>
+        <h3>Why it makes the list</h3>
+        <p>The fictional combination of lighter refreshments and flexible seating makes this an appealing idea for taking a breather before the next activity.</p>
+        <blockquote class="review">“Sometimes a different environment is all I need to reset. This café sounds like a nice change of pace.” — Fictional reviewer, Alex J.</blockquote>
+      </article>
+    </section>
+
+    <section class="tip">
+      <h2>Tips for planning a campus coffee run</h2>
+      <ul class="checklist">
+        <li>Allow enough time to order and get to your next class.</li>
+        <li>Check real business hours and menus before visiting an actual café.</li>
+        <li>Bring a reusable cup if the real shop accepts one.</li>
+        <li>Choose a quieter setting if you need to concentrate or prepare for an exam.</li>
+      </ul>
+      <p>Want a longer visit instead of a quick stop? Explore our <a class="text-link" href="study-spots.html">fictional study spot recommendations</a> or see the <a class="text-link" href="best-coffee-shops.html">overall favorites</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <h3>Bean There Iowa City</h3>
+      <p>A fictional guide for a University of Iowa class project.</p>
+      <p><a href="index.html">Home</a> · <a href="best-coffee-shops.html">Best Coffee Shops</a> · <a href="near-university.html">Near the University</a> · <a href="study-spots.html">Study Spots</a></p>
+    </div>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+  </footer>
+</body>
+</html>
