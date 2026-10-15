@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Read fictional reviews of the best coffee shops in Iowa City.">
+  <title>Best Coffee Shops | Bean There Iowa City</title>
+  <style>
+    :root {
+      --coffee: #4b3028; --cream: #fffaf2; --tan: #ead9c3;
+      --rust: #a65d3f; --ink: #29231f; --muted: #685d54;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--cream); color: var(--ink); line-height: 1.65; }
+    .notice { background: #f0e6d8; color: #49352b; text-align: center; padding: 12px 18px; font-size: .84rem; }
+    header { background: var(--coffee); color: white; }
+    .header-inner, main, .footer-inner { width: min(1080px, 90%); margin: auto; }
+    .header-inner { padding: 24px 0 0; }
+    .brand { color: white; text-decoration: none; font: bold clamp(1.7rem, 4vw, 2.5rem) Georgia, serif; }
+    .tagline { margin: 4px 0 20px; color: #f0dfcd; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 0 18px; }
+    nav a { color: white; text-decoration: none; padding: 9px 13px; border-radius: 6px; font-size: .93rem; }
+    nav a:hover, nav a:focus, nav a[aria-current="page"] { background: #765044; outline-offset: 3px; }
+    main { padding: 42px 0 56px; }
+    h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.2; }
+    h1 { font-size: clamp(2.2rem, 6vw, 3.5rem); margin: 10px 0 16px; }
+    h2 { font-size: clamp(1.55rem, 4vw, 2.15rem); }
+    h3 { font-size: 1.35rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: 2px; font-weight: bold; font-size: .78rem; color: var(--rust); }
+    .hero { background: var(--tan); border-radius: 14px; padding: clamp(25px, 6vw, 52px); margin-bottom: 32px; }
+    .hero p, .intro { max-width: 760px; }
+    .shop-list { display: grid; gap: 22px; }
+    .shop { background: white; border: 1px solid #e7dbcd; border-radius: 12px; padding: clamp(20px, 4vw, 30px); }
+    .shop-top { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px; }
+    .shop h2 { margin: 6px 0; }
+    .rating { color: var(--rust); font-weight: bold; }
+    .tag { display: inline-block; background: #f2e8dc; color: #604333; padding: 4px 9px; border-radius: 20px; font-size: .8rem; font-weight: bold; }
+    .details { display: flex; flex-wrap: wrap; gap: 8px 22px; color: var(--muted); font-size: .93rem; }
+    .review { background: #f4eadf; border-left: 4px solid var(--rust); margin: 15px 0 0; padding: 12px 14px; font-style: italic; }
+    .tip { background: #f3e7d9; padding: 20px 23px; border-radius: 10px; margin-top: 28px; }
+    .text-link { color: #87472f; font-weight: bold; }
+    footer { background: #30231e; color: #f9efe3; padding: 28px 0 0; }
+    footer a { color: #f4c9a6; }
+    .footer-inner p { margin: 6px 0; }
+    footer .notice { margin-top: 20px; }
+    @media (max-width: 760px) {
+      .header-inner, main, .footer-inner { width: 92%; }
+      nav { gap: 4px; }
+      nav a { padding: 9px 10px; }
+      main { padding-top: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <div class="header-inner">
+      <a class="brand" href="index.html">Bean There Iowa City</a>
+      <p class="tagline">A friendly guide to your next favorite cup.</p>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="best-coffee-shops.html" aria-current="page">Best Coffee Shops</a>
+        <a href="near-university.html">Near the University</a>
+        <a href="study-spots.html">Study Spots</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="eyebrow">Our fictional favorites</span>
+      <h1>Best Coffee Shops in Iowa City</h1>
+      <p>Great coffee is about more than the drink. It is the atmosphere, the little menu surprises, and the feeling of finding a spot that fits your day. These three imaginary coffee shops stand out in our fictional review guide for different reasons.</p>
+      <p>All businesses, ratings, reviews, menu items, and reviewer opinions on this page are invented for educational use.</p>
+    </section>
+
+    <div class="intro">
+      <h2>Three shops worth imagining a visit to</h2>
+      <p>Our fictional rankings consider drink variety, atmosphere, service, and overall experience. The ratings are illustrative, not real customer scores.</p>
+    </div>
+
+    <section class="shop-list">
+      <article class="shop">
+        <div class="shop-top">
+          <div>
+            <span class="tag">Overall favorite</span>
+            <h2>Maple &amp; Main Coffee</h2>
+          </div>
+          <div class="rating">★★★★★ 4.9/5</div>
+        </div>
+        <p>Maple &amp; Main is imagined as a warm, neighborhood-style café with wooden tables, soft lighting, and a menu built around classic espresso drinks. Its signature Maple Cinnamon Latte combines espresso, steamed milk, maple sweetness, and a dusting of cinnamon.</p>
+        <div class="details">
+          <span><strong>Best for:</strong> A relaxed coffee break</span>
+          <span><strong>Price range:</strong> $3–$7 (fictional)</span>
+          <span><strong>Atmosphere:</strong> Cozy and welcoming</span>
+        </div>
+        <blockquote class="review">“The Maple Cinnamon Latte is my imaginary go-to. The welcoming atmosphere makes it feel like a little escape from a busy day.” — Fictional reviewer, Emma R.</blockquote>
+        <p><strong>Our take:</strong> A strong all-around choice for someone who values familiar drinks, a comfortable setting, and a menu with a little personality.</p>
+      </article>
+
+      <article class="shop">
+        <div class="shop-top">
+          <div>
+            <span class="tag">Most creative menu</span>
+            <h2>Juniper Coffee House</h2>
+          </div>
+          <div class="rating">★★★★★ 4.7/5</div>
+        </div>
+        <p>Juniper Coffee House is a fictional café for adventurous drinkers. Its imagined menu features a honey lavender latte, rotating seasonal specials, and a selection of teas. Bright windows and local-art-inspired décor give the shop a creative personality.</p>
+        <div class="details">
+          <span><strong>Best for:</strong> Trying something new</span>
+          <span><strong>Price range:</strong> $3–$8 (fictional)</span>
+          <span><strong>Atmosphere:</strong> Bright and artistic</span>
+        </div>
+        <blockquote class="review">“I would come back just to try another seasonal drink. The creative menu makes an ordinary coffee run feel special.” — Fictional reviewer, Marcus T.</blockquote>
+        <p><strong>Our take:</strong> The imagined menu makes Juniper a fun pick for anyone who likes experimenting with flavors rather than ordering the same drink every time.</p>
+      </article>
+
+      <article class="shop">
+        <div class="shop-top">
+          <div>
+            <span class="tag">Best neighborhood vibe</span>
+            <h2>Riverbend Roasters</h2>
+          </div>
+          <div class="rating">★★★★☆ 4.6/5</div>
+        </div>
+        <p>Riverbend Roasters is pictured as a laid-back café with comfortable seating, friendly baristas, and a simple menu of espresso, drip coffee, and cold brew. A fictional house blend called Riverside Roast is its signature offering.</p>
+        <div class="details">
+          <span><strong>Best for:</strong> Everyday coffee runs</span>
+          <span><strong>Price range:</strong> $2–$6 (fictional)</span>
+          <span><strong>Atmosphere:</strong> Casual and relaxed</span>
+        </div>
+        <blockquote class="review">“It has the kind of easygoing atmosphere that would make a quick coffee stop feel like part of your daily routine.” — Fictional reviewer, Olivia K.</blockquote>
+        <p><strong>Our take:</strong> Riverbend suits the coffee drinker who prefers dependable classics and a low-key setting over an elaborate menu.</p>
+      </article>
+    </section>
+
+    <section class="tip">
+      <h2>Which fictional café fits you?</h2>
+      <p>Choose Maple &amp; Main for cozy classics, Juniper for creative flavors, or Riverbend for an easy everyday stop. Looking for a place close to campus or somewhere to study? Our other guides explore those needs.</p>
+      <p><a class="text-link" href="near-university.html">Coffee near the University →</a></p>
+      <p><a class="text-link" href="study-spots.html">Coffee shops for studying →</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <h3>Bean There Iowa City</h3>
+      <p>Fictional reviews for a University of Iowa class project.</p>
+      <p><a href="index.html">Home</a> · <a href="best-coffee-shops.html">Best Coffee Shops</a> · <a href="near-university.html">Near the University</a> · <a href="study-spots.html">Study Spots</a></p>
+    </div>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+  </footer>
+</body>
+</html>
