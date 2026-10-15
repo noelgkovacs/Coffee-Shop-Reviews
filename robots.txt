@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://noelgkovacs.github.io/Coffee-Shop-Reviews/sitemap.xml
