@@ -38,11 +38,21 @@
     }
 
     header {
-     header { background: var(--coffee); color: white; }
-    .header-inner, main, .footer-inner { width: min(1080px, 90%); margin: auto; }
-    .header-inner { padding: 24px 0 0; }
+      background: var(--coffee);
+      color: white;
     }
-    
+
+    .header-inner,
+    main,
+    .footer-inner {
+      width: min(1080px, 90%);
+      margin: auto;
+    }
+
+    .header-inner {
+      padding: 24px 0 0;
+    }
+
     .brand {
       display: inline-block;
       color: white;
@@ -248,7 +258,7 @@
   <header>
     <div class="header-inner">
 
-      <a class="brand" href="index.html">Bean There Iowa City</a>
+      <a class="brand" href="index.html" aria-label="Bean There Iowa City Home">
 
       <p class="tagline">A friendly guide to your next favorite cup.</p>
 
