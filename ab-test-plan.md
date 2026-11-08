@@ -5,7 +5,7 @@ Website: Been There Iowa City
 Page Being Tested: Homepage
 
 Version A
-Hero image featuring a coffee drink in a coffee shop setting.
+Original homepage with no representation of anyone with a drink.
 
 Version B
 Hero image featuring a student studying in a coffee shop.
