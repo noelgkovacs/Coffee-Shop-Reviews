@@ -2,7 +2,7 @@ A/B Test Plan
 Page and Element Being Tested
 Website: Been There Iowa City
 
-Page Being Tested: Homepage
+Page Being Tested: Near the University/Study Spots
 
 Version A
 Original homepage with no representation of anyone with a drink.
